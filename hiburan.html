@@ -1,0 +1,90 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>DD-NET | Hiburan</title>
+<meta name="generator" content="WYSIWYG Web Builder 14 - http://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="font-awesome.min.css" rel="stylesheet">
+<link href="hiburan.css" rel="stylesheet">
+<link href="hiburan.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script src="wb.panel.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $("#headerPanelMenu").panel({animate: true, animationDuration: 200, animationEasing: 'linear', dismissible: true, display: 'overlay', position: 'left', toggle: true});
+   $("#headerPanelMenu_markup ul li a").click(function(event)
+   {
+       $.panel.hide($("#headerPanelMenu_panel"));
+   });
+   $("a[href*='#section3']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#section3').offset().top }, 600, 'easeOutCubic');
+   });
+});
+</script>
+</head>
+<body>
+<div style="background-image: url('bg.jpg');">
+
+<div id="container">
+
+</div>
+<div id="wb_header">
+<div id="header">
+<div class="row">
+<div class="col-1">
+<div id="wb_headerPanelMenu">
+<a href="#headerPanelMenu_markup" id="headerPanelMenu">
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"></span>
+</a>
+<div id="headerPanelMenu_markup">
+<ul role="menu">
+   <li role="menuitem"><a href="https://ddnet.zya.me/">Home</a></li>
+   <li role="menuitem"><a href="tentang.html">Tentang</a></li>
+   <li role="menuitem"><a href="kontak.html">Kontak</a></li>
+   <li role="menuitem"><a href="harga.html">Harga</a></li>
+</ul>
+<div id="headerPanelMenu-footer">Copyright © DD-NET 2022</div>
+</div>
+
+</div>
+</div>
+<div class="col-2">
+<div id="wb_headerBreadcrumb">
+<ul id="headerBreadcrumb">
+<li><a href="https://ddnet.zya.me/"><img src="wifi.png" alt="ddnet" style="width:45px;height:30px;"></i>
+<li><a href="https://ddnet.zya.me/"><img src="ddnet.png" alt="ddnet" style="width:130px;height:30px;"></a></li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_section3">
+<div id="section3">
+<div id="wb_Card3">
+   <div id="Card3-card-header">HIBURAN</div>
+   <div id="Card3-card-body">
+
+      <div id="Card3-card-item1"></div>
+      <audio autoplay controls>
+      <source src="http://202.147.199.99:8000/;" type="audio/mpeg"></audio>
+      </div>
+
+      <div id="Card3-card-item7">SELAMAT MENIKMATI</div>
+   </div>
+
+</div>
+</div>
+</div>
+<div id="FlexContainer1">
+<marquee direction="left" scrolldelay="120" scrollamount="6" behavior="scroll" loop="0" id="Marquee1"><span style="color:#FFFFFF;font-family:Arial;font-size:13px;">Untuk Informasi Lebih Lanjut bisa Hub : +62 8561 1278 93 Internet Hotspot | DD-NET | Created By : Ghin</span></marquee>
+</div>
+</body>
+</html>

@@ -1,0 +1,104 @@
+﻿<html>
+<head>
+<meta charset="utf-8">
+<title>DD-NET | Hotspot</title>
+<meta name="generator" content="WYSIWYG Web Builder 14 - http://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="font-awesome.min.css" rel="stylesheet">
+<link href="home.css" rel="stylesheet">
+<link href="home.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script src="wb.panel.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $("#headerPanelMenu").panel({animate: true, animationDuration: 200, animationEasing: 'linear', dismissible: true, display: 'overlay', position: 'left', toggle: true});
+   $("#headerPanelMenu_markup ul li a").click(function(event)
+   {
+       $.panel.hide($("#headerPanelMenu_panel"));
+   });
+   $("a[href*='#section3']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#section3').offset().top }, 600, 'easeOutCubic');
+   });
+});
+</script>
+</head>
+<body>
+
+<div id="container">
+
+</div>
+<div id="wb_header">
+<div id="header">
+<div class="row">
+<div class="col-1">
+<div id="wb_headerPanelMenu">
+<a href="#headerPanelMenu_markup" id="headerPanelMenu">
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"></span>
+</a>
+<div id="headerPanelMenu_markup">
+<ul role="menu">
+   <li role="menuitem"><a href="home.html" title="Home">Home</a></li>
+   <li role="menuitem"><a href="tentang.html" title="Tentang">Tentang</a></li>
+   <li role="menuitem"><a href="kontak.html" title="Kontak">Kontak</a></li>
+   <li role="menuitem"><a href="harga.html" title="Harga">Harga</a></li>
+</ul>
+<div id="headerPanelMenu-footer">Copyright © DD-NET 2021</div>
+</div>
+
+</div>
+</div>
+<div class="col-2">
+<div id="wb_headerBreadcrumb">
+<ul id="headerBreadcrumb">
+<li><a href="home.html"><i class="fa fa-wifi"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<font size="6">DD-NET</font></a></li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="wb_Text1">
+
+<div id="FlexContainer1">
+<span style="color:#000;font-family:Calibri Light;font-size:15px;">
+Bersama Melawan COVID-19 #Dirumah saja<br>
+<p><a href="status.html" title="Status">Klik disini untuk melihat pemakaian internet anda</a>
+
+</table>
+</div>
+<div id="wb_FlexContainer2">
+<div id="FlexContainer2">
+<div id="wb_Card1">
+   <div id="Card1-card-header">PASANG BARU</div>
+   <div id="Card1-card-body">
+      <div id="Card1-card-item1">Khusus Promo</div>
+      <div id="Card1-card-item2">Pemasangan Rp.150.000</div>
+   </div>
+      <div id="Card1-card-item6">Unlimate</div>
+
+</div>
+<div id="wb_Card4">
+   <div id="Card4-card-header">WIFI MURAH</div>
+   <div id="Card4-card-body">
+      <div id="Card4-card-item1">Harga Bulanan</div>
+      <div id="Card4-card-item2">Rp.100.000 kecepatan 2 Mbps</div>
+   </div>
+      <div id="Card4-card-item6">Tanpa Quota</div>
+
+</div>
+</div>
+</div>
+<div id="FlexContainer3">
+<marquee direction="left" scrolldelay="120" scrollamount="6" behavior="scroll" loop="0" id="Marquee2"><span style="color:#FFFFFF;font-family:Arial;font-size:13px;">Untuk Informasi Lebih Lanjut bisa Hub : +62 8561 1278 93 Internet Hotspot | DD-NET | Created By : Ghin</span></marquee>
+</div>
+</body>
+</html>
